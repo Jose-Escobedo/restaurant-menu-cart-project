@@ -16,7 +16,7 @@ Frank and Jose's Awesome Restaurant
 
 ![alt text](https://user-images.githubusercontent.com/70832391/160661903-8ae2a555-e6a1-4b1d-8c41-97e128b1c0a6.png)
 
-Information Flow
+## Information Flow
 
 App > Home
       About
