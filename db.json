@@ -1,0 +1,57 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "Shrimp Alfredo",
+      "image": "./images/shrimpalfredo.jpeg",
+      "price": 15.99
+    },
+    {
+      "id": 2,
+      "name": "Pesto Chicken",
+      "image": "./images/pestochicken.jpeg",
+      "price": 14.99
+    },
+    {
+      "id": 3,
+      "name": "Pepperoni Pizza",
+      "image": "./images/pepperoni.jpeg",
+      "price": 12.99
+    },
+    {
+      "id": 4,
+      "name": "Spaghetti",
+      "image": "./images/spaghetti.jpeg",
+      "price": 13.99
+    },
+    {
+      "id": 5,
+      "name": "Garlic Bread",
+      "image": "./images/garlicbread.jpeg",
+      "price": 7.99
+    },
+    {
+      "id": 6,
+      "name": "Cheese Pizza",
+      "image": "./images/cheesepizza.jpeg",
+      "price": 10.99
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "content": "Best Italian restaurant in the west coast!"
+    },
+    {
+      "id": 2,
+      "name": "Michael",
+      "content": "Best food ever!"
+    },
+    {
+      "id": 3,
+      "name": "Roy",
+      "content": "It was alright."
+    }
+  ]
+}
