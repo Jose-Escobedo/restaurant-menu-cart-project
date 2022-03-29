@@ -18,4 +18,5 @@ Frank and Jose's Awesome Restaurant
 
 ## Information Flow
 
-![alt text](Screenshot 2022-03-29 095304)
+![alt text]([Screenshot 2022-03-29 095304](https://user-images.githubusercontent.com/70832391/160665337-86721532-cf72-43f4-bb29-e19f91b28292.png)
+
