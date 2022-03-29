@@ -18,8 +18,4 @@ Frank and Jose's Awesome Restaurant
 
 ## Information Flow
 
-App > Home
-      About
-      Menu > MenuItems
-             MenuCart
-      
+![alt text](Screenshot 2022-03-29 095304)
