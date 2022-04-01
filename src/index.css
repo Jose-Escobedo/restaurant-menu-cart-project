@@ -146,6 +146,13 @@
   background: rgb(117, 24, 24);
   color: white;
   font-family: "Raleway", sans-serif;
+  cursor: pointer;
+}
+
+.form-button:active {
+  background-color: rgb(118, 60, 60);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .title-cart-container {
