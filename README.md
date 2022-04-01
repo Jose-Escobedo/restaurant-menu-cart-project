@@ -8,7 +8,7 @@ Frank and Jose's Awesome Restaurant
 
 2. User should be able to see items displayed from menu coming from a local db.json
 
-3. User should be able to see total price and selected items in cart
+3. User should be able to see selected items in cart
 
 4. User should be able to delete items from cart 
 
