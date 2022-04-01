@@ -27,6 +27,7 @@ function App() {
     console.log(data);
   }
 
+<<<<<<< HEAD
   function handleCartClick(id, cart, price) {
     setMenu(
       menu.map((item) => (id === item.id ? { ...item, isCart: cart } : item))
@@ -47,6 +48,23 @@ function App() {
       .then((res) => res.json())
       .then(setReviews([...reviews, e]));
   };
+=======
+ const addNewReview = (e) => {
+  // let newReview = [...reviews, newReviewObj]
+  // setReviews(newReview)
+  e.preventdefault()
+  fetch("https://localhost:3000/reviews", {
+      method: "POST",
+      headers: {
+          'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(e)
+    })
+      .then (res => res.json())
+      .then(setReviews([...reviews, e]))
+ }
+
+>>>>>>> e216b01f30abac7bab9332fde441a67b47bbc4ca
 
   useEffect(() => {
     fetch("http://localhost:3000/menu")
@@ -74,6 +92,7 @@ function App() {
           <About />
         </Route>
         <Route exact path="/reviews">
+<<<<<<< HEAD
           <Reviews reviews={reviews} />
           <NewReviewForm
             addNewReview={addNewReview}
@@ -86,6 +105,11 @@ function App() {
             handleClick={(id) => handleCartClick(id, false)}
             handleTotal={(price) => handleTotal(price)}
           />
+=======
+          <Reviews  reviews={reviews} />
+          <NewReviewForm addNewReview={addNewReview}
+          NewReviewForm={NewReviewForm} />
+>>>>>>> e216b01f30abac7bab9332fde441a67b47bbc4ca
         </Route>
       </Switch>
     </>
