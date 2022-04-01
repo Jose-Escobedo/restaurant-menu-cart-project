@@ -1,16 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import ReviewItem from "./ReviewItem";
 
-function Reviews({ reviews }) {
+function Reviews({ reviews, handleButtonShowForm }) {
+  // const [buttonShow, setButtonShow] = useState(true);
+  // function handleButtonShowForm(e) {
+  //   setButtonShow(!buttonShow);
+  // }
   return (
     <div className="reviews-container">
-      <h1>Reviews</h1>
+      <h1 id="review-title">Reviews</h1>
       <div className="reviews">
         {reviews.map((review) => {
           return <ReviewItem key={review.id} review={review} />;
         })}
       </div>
-      <button>Add a review</button>
+      {/* {buttonShow ? (
+        <button onClick={handleButtonShowForm}>Add a review</button>
+      ) : null} */}
     </div>
   );
 }

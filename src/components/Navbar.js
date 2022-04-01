@@ -41,7 +41,12 @@ function Navbar() {
           Reviews{" "}
         </NavLink>
       </ul>
-      <h1>Frank and Jose's Italian Kitchen</h1>
+      <div className="title-cart-container">
+        <h1>Frank and Jose's Italian Kitchen</h1>
+        <NavLink to="/cart" exact style={linkStyles}>
+          <img id="img-cart" src={"./images/shopping-cart.png"}></img>
+        </NavLink>
+      </div>
     </div>
   );
 }

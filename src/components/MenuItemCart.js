@@ -1,16 +1,15 @@
 import React from "react";
+import { useState } from "react";
 
-function MenuItem({ menu, handleClick }) {
+function MenuItemCart({ menu, handleClick }) {
   return (
     <div className="menu-item">
       <img src={menu.image} alt={menu.name}></img>
       <h1>{menu.name}</h1>
       <h2>{`Price: $${menu.price}`}</h2>
-      <button onClick={() => handleClick(menu.id, menu.price)}>
-        Add to Cart
-      </button>
+      <button onClick={() => handleClick(menu.id)}>Remove from Cart</button>
     </div>
   );
 }
 
-export default MenuItem;
+export default MenuItemCart;

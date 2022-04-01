@@ -67,18 +67,30 @@
   background: rgb(117, 24, 24);
   color: white;
   font-family: "Raleway", sans-serif;
+  cursor: pointer;
+}
+.menu button:hover {
+  background: rgb(118, 60, 60);
+}
+.menu button:active {
+  background-color: rgb(118, 60, 60);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .reviews {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: 40px;
   margin: 2rem auto;
-  width: 100%;
+  width: 50%;
   font-family: "Raleway", sans-serif;
+}
+
+#review-title {
+  font-size: 3rem;
 }
 
 .reviews-container button {
@@ -90,10 +102,109 @@
   font-family: "Raleway", sans-serif;
 }
 .reviews-container {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   margin: 2rem auto;
+  width: 50%;
 }
 .reviews-container h1 {
   font-size: 2rem;
   font-family: "Raleway", sans-serif;
+}
+
+.review-form {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5px;
+  width: 25%;
+}
+
+.review-form input {
+  border-radius: 10px;
+}
+
+.review-form textarea {
+  border-radius: 10px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.form-button {
+  width: fit-content;
+  margin: auto;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  background: rgb(117, 24, 24);
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+.title-cart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.title-cart-container h1 {
+  margin-left: 10%;
+}
+
+#img-cart {
+  width: 50px;
+  height: 50px;
+  filter: invert(100%);
+  margin-left: 300%;
+}
+
+#img-cart:active {
+  transform: translateY(4px);
+}
+
+.cart-menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#cart-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 3rem;
+  padding: 20px;
+}
+
+.about {
+  font-size: 2rem;
+  font-family: "Raleway", sans-serif;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#spaghetti {
+  height: 500px;
+  width: 500px;
+  padding: 20px;
+  border-radius: 100px;
+}
+.img-about {
+  font-size: 1.5rem;
+  font-family: "Raleway", sans-serif;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
